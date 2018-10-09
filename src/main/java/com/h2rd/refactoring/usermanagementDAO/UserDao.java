@@ -1,12 +1,15 @@
-package com.h2rd.refactoring.usermanagement;
+package com.h2rd.refactoring.usermanagementDAO;
 
+import com.h2rd.refactoring.usermanagement.User;
 import java.util.ArrayList;
+import org.springframework.stereotype.Repository;
 
-public class UserDao {
+@Repository
+public class UserDao implements IUserDao{
 
-    public ArrayList<User> users;
+    private ArrayList<User> users;
 
-    public static UserDao userDao;
+    public static  UserDao userDao;
 
     public static UserDao getUserDao() {
         if (userDao == null) {
