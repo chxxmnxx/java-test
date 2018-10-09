@@ -1,7 +1,7 @@
 package test.com.h2rd.refactoring.unit;
 
 import com.h2rd.refactoring.usermanagement.User;
-import com.h2rd.refactoring.usermanagement.UserDao;
+import com.h2rd.refactoring.usermanagementDAO.UserDao;
 import org.junit.Test;
 
 import java.util.Arrays;

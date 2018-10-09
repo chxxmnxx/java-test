@@ -9,7 +9,7 @@ import junit.framework.Assert;
 import org.junit.Test;
 
 import com.h2rd.refactoring.usermanagement.User;
-import com.h2rd.refactoring.web.UserResource;
+import com.h2rd.refactoring.webController.UserResource;
 
 public class UserIntegrationTest {
 	
